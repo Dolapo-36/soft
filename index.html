@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Copitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soft portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/543a2c137f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="../IMAGES/softlogo.jpg" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <i class="fas fa-times"></i> -->
+             </ul>
+             <!-- <i class="fas fa-bars"></i> -->
+                 <div class="x" onclick="closemenu()">X</div>
+              <div class="exit" onclick="openmenu()">=</div>
+            </nav>
+            
+        
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+        <h1>Hi, I'am <span>Munihim</span> <br> A student of LAUTECH</h1>
+        </div>
+        
+        </div>
+        
+    </div>
+    <!-- ---------------about----------- -->
+    <div id="about">
+        <div class="container"></div>
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="IMAGES/logo.jpg" alt="" height=""> -->
+                 <img src="../IMAGES/mun2.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a Cyber Security / Web Developer enthusiast passionate about building secure, fast,
+                     and user-friendly digital experiences. I specialize in UI/UX design, responsive websites, Android/iOS apps,
+                      and creating solutions with security in mind. Let's build something safe and amazing together.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Desiner Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development </li>
+                            <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Cyber Analyst</span><br>Systems and networks have been protected from threat by identifying security risk.</li>
+                            <li><span>Website </span><br>Responsive and user-friendly websites using HTML,CSS,JS,Pyton .... to deliver seamless user experience has been built.</li>
+                            <li><span>UI/UX Designer</span><br>Designed intuitive and visual appealing user interface that enhance usability and drive user satisfaction.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Cybersecurity</span><br>Studied cybersecurity principles, network security, ethics, and risk management to protect systems and data.</li>
+
+                            <li><span>Diploma in Web Development</span><br>Gained knowledge in HTML, CSS, JavaScript, and modern frameworks to build responsive and dynamic websites. </li>
+                            <li><span>UI/UX Design</span><br>Learned user-centered design, wireframing, prototyping, and usability best practices to create intuitive digital experiences.</li>
+
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services------ -->
+     <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>I design modern, fast, and mobile-friendly websites that turn visitors into customers.
+                         Your brand deserves a website that looks good and works even better.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h2>UI/UX design</h2>
+                    <p>UI/UX design that boosts engagement and retention. I combine research,
+                         strategy, and design to build products users actually enjoy.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>App design</h2>
+                    <p>I design sleek, fast, and user-friendly mobile apps for Android and iOS.
+                         From idea to prototype to launch - your app, likewise it will be moderate on any device .</p>
+                    <a href="#">Learn more</a>
+                </div>
+             </div>
+        </div>
+     </div>
+     <!-- ------------portfolio------------ -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="../IMAGES/media.jpg" alt="" height="480px">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>The app connects you to the talented people aroud the world. Download it from playstore/Appstore </p>
+                        <!-- <a href=""><i class="fa-solid fa-star"></i></a> -->
+                         <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../IMAGES/mun4.jpg" alt="" height="480px">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p> Discover, stream, and connect with talented artists from around the world.
+                             Download it now on Play Store and App Store.</p>
+                        <a href=""><i class="fa-solid fa-headphones"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../IMAGES/cart.jpg" alt="" height="480px">
+                    <div class="layer">
+                        <h3>Online shopping app</h3>
+                        <p>Your favorite stores in one app. Easy shopping, quick checkout,
+                             and doorstep delivery. Available on Play Store and App Store.</p>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- ---------contact--------- -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> soft84799@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 08134457681</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="../IMAGES/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <!-- <form>
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form> -->
+                  <form action="https://formsubmit.co/5fd75921307974fc398f58ff925e2676" method="POST">
+                    <input type="text" name="name" placeholder="your Name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                   <textarea name="message" rows="6" placeholder="your Message" required></textarea>
+
+                   <input type="hidden" name="_subject" value="New Portfolio Message!">
+                   <input type="hidden" name="_captcha" value="false">
+
+                   <button type="submit" class="btn btn2">Submit</button>
+                  </form>   
+
+                    
+                    
+
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright *Munihim.made by <i class="fa-solid fa-heart"></i> Soft code</p>
+        </div>
+       </div>
+
+       
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        // var tablinks=document.getElementsByClassName("tab-links");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        var sidemenu =document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- <script>
+        let lastScrollTop = 1000;
+const header = document.getElementById('header');
+
+window.addEventListener('scroll', function() {
+  let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+  if (scrollTop > lastScrollTop && scrollTop > 80) {
+    // scrolling down - hide header
+    header.classList.add('hide');
+  } else {
+    // scrolling up - show header
+    header.classList.remove('hide');
+  }
+  
+  lastScrollTop = scrollTop;
+});
+    </script> -->
+    
+
+    
+
+
+
+</body>
+</html>
+
