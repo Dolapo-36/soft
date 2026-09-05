@@ -16,7 +16,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(../IMAGES/mun.jpg);
+    background-image: url(images/mun.jpg);
     background-size: cover;
     background-position: center;
     /* padding-top: -70px; */
@@ -349,7 +349,7 @@ nav .exit{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(../IMAGES/mun6.jpg);
+        background-image: url(images/mun6.jpg);
     }
     .header-text{
         margin-top: 100%;
